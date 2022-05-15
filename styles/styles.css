@@ -142,16 +142,18 @@ main {
     color: #757575;
 }
 
-.main-currency-table {
+.main-currency-table, .main-commission-table {
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
+    text-align: left;
 }
 .main-currency-table .currency-table--title {
     margin-bottom: 15px;
+    margin-left: 15px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
@@ -172,6 +174,7 @@ main {
 .currency-table--container table td,
 .commission-table--container table td {
     width: 50%;
+    padding-left: 1.2rem;
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.9rem;
@@ -223,8 +226,33 @@ main {
 }
 .main-commission-table .commission-table--title {
     margin-bottom: 15px;
+    margin-left: 15px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--secondary-blue);
+}
+.currency-table--date {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+}
+.currency-table--date p,
+.commission-table--date p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+    text-align: center;
+}
+.commission-table--date {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-blue);
 }
