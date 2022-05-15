@@ -103,6 +103,7 @@ main {
     height: auto;
     background-color: var(--off-white);
 }
+/* Sección 1: Exchange section */
 .main-exchange-container {
     width: 100%;
     height: auto;
@@ -141,7 +142,7 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
-
+    /* Tablas */
 .main-currency-table, .main-commission-table {
     width: 70%;
     min-width: 235px;
@@ -255,4 +256,44 @@ main {
     margin-top: 15px;
     padding: 8px;
     background-color: var(--soft-blue);
+}
+
+/* Sección 2: Product Details*/
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+.product-detail--batata-logo {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    top: -11px;
+    left: calc(50% - 20px);
+    background-image: url('/assets/icons/bataIcon.svg');
+}
+.product-detail--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.product-detail--title h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: white;
+}
+.product-detail--title p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
 }
